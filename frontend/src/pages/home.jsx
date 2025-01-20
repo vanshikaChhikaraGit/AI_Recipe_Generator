@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { recipeSuggestions } from '@/lib/constants';
 import { TbBulbFilled } from "react-icons/tb";
-import axios from 'axios';
 import { Loader } from 'lucide-react';
 import Recipe from '../components/ui/recipe';
 import Footer from '@/components/ui/footer';
+import { axiosInstance } from '@/lib/axios';
 
 const Home = () => {
   const [prompt, setPrompt] = useState("");
@@ -37,8 +37,8 @@ const Home = () => {
     setButtonClicked(true);
 
     try {
-      const response = await axios.post(
-        "https://ai-recipe-generator-wfka.onrender.com/api/recipe/generate-recipe",
+      const response = await axiosInstance.post(
+        "/recipe/generate-recipe",
         { prompt }
       );
       console.log("API Response:", response.data); // Log once
