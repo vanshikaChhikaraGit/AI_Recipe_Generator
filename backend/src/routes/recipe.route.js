@@ -4,7 +4,7 @@ import { authMiddleWare } from "../middleware/auth.middleware.js";
 
 const router = e.Router()
 
-router.post("/generate-recipe",authMiddleWare,generateRecipe)
+router.post("/generate-recipe",generateRecipe)
 router.post("/save-recipe",authMiddleWare,saveRecipe)
 
 export default router

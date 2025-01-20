@@ -1,0 +1,28 @@
+export const recipeSuggestions = [
+    "Spicy Green Curry with Tofu and Lemongrass, Low Sodium",
+    "Classic Margherita Pizza with Fresh Basil",
+    "Vegan Buddha Bowl with Quinoa and Roasted Veggies",
+    "Homemade Sourdough Bread with Garlic Butter",
+    "Mango Chutney Chicken with Basmati Rice",
+    "Grilled Veggie Skewers with Lemon Herb Marinade",
+    "Mediterranean Falafel Wraps with Tzatziki",
+    "Pasta Primavera with Fresh Tomatoes and Basil",
+    "Vegan Mushroom Risotto with Truffle Oil",
+    "Lentil and Spinach Dahl with Naan Bread",
+    "Crispy Tempura Vegetables with Soy Dipping Sauce",
+    "Sweet Potato and Black Bean Tacos with Avocado",
+    "Lemon Herb Grilled Salmon with Asparagus",
+    "Chia Pudding with Berries and Almond Butter",
+    "Coconut Milk Thai Soup with Lemongrass and Mushrooms",
+    "Sushi Rolls with Avocado, Cucumber, and Tofu",
+    "Spicy Kimchi Stir-fry with Brown Rice",
+    "Crispy Tofu Stir-fry with Cashews and Snow Peas",
+    "Chickpea Shawarma with Pita and Hummus",
+    "Sweet and Sour Chicken with Pineapple and Bell Peppers",
+    "Quinoa Salad with Roasted Beets, Feta, and Walnuts",
+    "Avocado Toast with Poached Eggs and Sriracha",
+    "Peking Duck with Pancakes and Hoisin Sauce",
+    "Vegan Chocolate Avocado Mousse with Coconut Whipped Cream",
+    "Stuffed Bell Peppers with Quinoa, Black Beans, and Corn"
+  ];
+  
