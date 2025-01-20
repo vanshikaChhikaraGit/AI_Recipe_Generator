@@ -38,7 +38,7 @@ const Home = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5001/api/recipe/generate-recipe",
+        "https://ai-recipe-generator-wfka.onrender.com/api/recipe/generate-recipe",
         { prompt }
       );
       console.log("API Response:", response.data); // Log once
